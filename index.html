@@ -1,19 +1,83 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>My Protfolio</title>
-    <style>
-
-    </style>
+    <meta charset="utf-8">
+    <title>Sir Tim Berners-Lee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <section>
-        <img src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhMVFRIVFRUVFRcVFRUVFRcVFRYWFxUVFxUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQFy0dHR0tLS0tLS0tKy0tLS0tLS0tLSstLS0tLSstLS0rLSstLS0tLS0tLS0tKy0tLS0tLS0rLf/AABEIAMIBAwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBAUGB//EAEUQAAEDAQUFBQYEBAQDCQAAAAEAAhEDBBIhMVEFQWFxkQYTIoGhFDKxwdHwQlJy4SNikvEHgrLCFWOiFjNDU3Ojw9Ly/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAgEQEBAQACAgMAAwAAAAAAAAAAARECEiExA0FREzKB/9oADAMBAAIRAxEAPwDydtkRPZgrTWIgprk64rMpDeEdlAIraMotOlCi4hSZwVljEWnSlGZSUagbaMqYsqtU6asU6SyrMdYkI2RdCykCpGwgpq450WYqYorXfZCN2CQs4KaYzW0gp+zhXKlmhRbSRcUXUVJjCr93VTZTBTTFDFSaVbqUQEMUlNXEBSBTezozWwjtqBTVxQNNMAFpFgKA+zqaYq3FByO+iQhkQiKdSNFXe0FaLwCq9Sy6LUqWKD6SA+mrr6bghHitaxYovpoRarj2ITmrWs4qkKJCM5qE5qqBwknhOiNJgVhrUBmKNTwRRmU0ZtNPRVpjQstBMCI04o7KSL3KNYZjFZolRZTV2jRBWash2U1Zp00IYcVaY4LLcSawb0OrYAcQrDQqr7U6o51KkYLcKlSAQwkTDZwNSCMMQJk7gUhbjIttYtcabG95UGYGTdL7sm8szuBQbOypH8QNBOVwkjiDIBldVY7LTpsDGNhuJ1JJzc4nFzjmScShWmwPc9jWUnEPnENMAjjpBTfxM+6559FC7hwyXW1ezNoAnuXEcLs9JWdVsl0w5pa7Qgg9Ctel9sYh2iGakZha3dP3NPRQNiec2qzjb9M3lJ9qTagKhUhaNayED3VQeNQpeOLOUoTXEZIzaqGGg5KV2FmxRL6FUog5JyE0qKrVKJCCVoX9xQKlMFEUXOQarQUWtT0Vd0rTFCfSQHtVlzkJxVRTc1Ce1XHsBVd1OFrWcV4SRklUxYplWqb1XFJFprSLbTorVGoqdNWaay1GlRcrbGoOyNlVK14sLWhsSXkgY7hAK6Ox9la14B72AcLxO/cQNFmxqVjCki02rs7P2Pp/iqPdygLTsvZeyjG5e/U4n5wtT4+VP5JHBUbONVpWfYtV/uMcfKB1OC9Bs1jos9xjG8gAjmu0LU+H9rN+b8jy3aVN1OqyzXmNr1DEuMMptzc57z4ZA/CCTkuv2P2dsl2G1hVDZm69vvEy4uu43iZJlclsTs57VbLabRUfUoUbTVIaKjw19R73OuuA/C1pYCN5jcMeiq9i7PIdSdVovb7tyo4tHJriY8oXTjw4458ud11VlsFGn7jGt4xj1KlaXNMDTguStNTaVnEsDLXTGbS65Vj+VxwJ/UUfZPayhWdceH0K2ANOu00zJMCCcHAkGNYKvj0z59ukfXEYysDbxa5siC4Y45jVa1U4Ln9oHxRwK5fNbI6/F5uLlLs88tBvMEid5Qa/Z2pq09R8l0tlfFJp/lb8AqxtD9GnlK7d7krl1muL2jYalHE0Kjxqxt/0GK5q222/gLO8HV8M9CvWPaRvEcsVXtlCjWbdqMZUB3OaD6FZvPfcanH8rxdzmtk1HMadA4OKnTMiWkEcF3e0/wDD6wVJusNJx3tcQBya6R0XL2z/AA0tNMzZrQ12geCw9RIPoud48L6uNzlynvyzQ5POqDRpWg3gaRqmm4teaIL/ABAmbsDxAQASN5jGCmL3DMObwc0tPQrleLrOUqVQwq76qIawKr1Spi0xqyhvcgvlDL1rGLT1IQJUnOQnFVDOUJRhiouphRAcEkxCSouiRxCmwgpNCkWrTIzGIzWlVmuIT1ahgNBguIbhnimLr0DsfSihJ/FU9A5o+RXah38Ty+Q+q5bYdnFOnRptmPCcTJ8Re7EnyXR0XTVdw+Yb9FnitawdAJ4KvM5j1nPHJSe7wnkg0n/H4r0ONWW/Ld9ERAY/49fNEDp+/vFajLC7E0btG0EjxVLfbHGeFZzR6NC6J305QsmmDRqPnGlVffafy1CBeadASLwJzLnD8s2nWrMDc6N2YH3iotWKp37vhwWP2k7O0rZTLKnhcAe7qNwey9GWrTAluRjELQok6A4n3t4yjPDyTW62MpUzUfjEQBm52TWgb3EmOZT37Ncr2I23fYbFUcDarOHBzSTJDHFhgn3hIBGjajVb2vaGsdeeboMjxZ9MzvXGba2DXpEWp9F18l1V7mEk03PcXOa4sN4tbezAIA0VzZGyGV6fe2h3tJqxddU8YaycLl6buuHBef5bM8u3xy74enbLttOpQbcex8NbN1wdERnBwQ3zEgzuyGi5/wD7F2epTF0vouHuvpOuubxH7ysmtsfalnn2e0U7UxuHd12tDyBM/wAQZmNxhdJfEYs8uyYevx5BCn7+81yuze1jTU7i10allr3QYcQ5kfmwPu6kAgbyF0da0hoLnOZdALnF3hgYkmcAPXNTxV8rDqrtx34jNc/te3vtBNCy1QASRVqsx7tuTg05F5ggZxnuhc9tjaVe31DZ7LepWcEd9Ug33N3icO7BjL3ncBn1mz7DSs1NlGmLrWjPKTvJwxOA5BZxdV+yrKbBULGkUg4Uae/wUhBdO8lznEnecVuPew5wQdRh6rD2c80wKb4kFxDgIBzM4bzInDNXi7eOHqsSeG9RtOxrLUzpUzyaJ6hYVr7JWR2LWuZyc4ejlr1AIwI37wDr981CyuMGZz3+qliyvP8AtJ2dFBrXse5wLw2HAYSDBkco81zDnSJzHBek9sGTZn6tuv8A6XAn0leY2dsPq0/yuJb+l2I+XVTjTke8oojmlCeeC2ymSFAlCvFTDkES5JSuhOguqbHKLVIM0WmRhig0GXrQxo/DLj5Yj5KdNysdlmd5aS7+djRyDrx9Kfqn1S/T0uiIqMb+W63+lo/+y1bI7xvPH/c5YtnfNcfqcfSmPktPZ75vH+Y/X5rPH21WtXf4D5fFV6b931w4qNrqeDkceWKrU6o3TOOYOOnniu8ca0aVXH7OqM1335LNFUEYfXHdzxPyRhqTIzwjLgc1tnF57hGMR6cln2nadnaQPHlM05JO7LEEIdrdIx0jcfgoiGlsCfCOEZ4rNrUhnbbaBLKdZ0zgKV3dvvOPUSnsm1mvdedIc33WmPCYMHieKt0aQOJwPDH15KvbNnMcJxnURP1Uu/q+PwataQ4EgjIzrj8cJ6LmOz9IMc+gBApPddH8r/E3/UehVe22h9F/jc5zBvHigDeQcwssbabTtdOtHhIuVC0YFhJLXR/KZOGYcV5/lu+3bh4es2bBvIKjbDJgOAbGWEzPiJDhyjFE9oBpXmkFpAIIxBHDVVg6BhqMQZAEbx5Lv9OV9sLtdsnvrO4yRVY01KVQXZZUZJaQZyIwI3yvPOz9G1WxzKLqr+4aC+sS8vF+9LLoODSL3hGQugxgvS+0lq7uy1qmMim66IGLiLrctSfVZmwrIbNZqVAgX2sF6R+PNxPnIWasaNhoMoMbRoi4OeoxLjvPE/2tWlgc1oJw+cFsqtSqFozxOfHhHX7KJXryAcB72Qyx03KGK9ppADlBnMzEeqajVAADpxw3eW/D9lGs766YnLy+qqVXSD04xhl0GKw0t1CDk7jBkenJRs0AuxEndpB3cFn1KhHKMcND9RKahWh48x1y+SzWoNtanfp1GfmY5vUELySq8iqx26pTE82y3/YOq9arvXlG3KdzH/yq72f5SZb/AKHdVnh/Zrn6Tc9QLkzwguJC6sJkob1C+nvIhXeKSa+UkGq0oqAw71NrlpE6rgGlx3Alav8Ah9R8QdoH1D6Mb/vXP7TqeCNSB8/kuy7G0boedBTp9Bef6vKnLxCea39n1f439Z/9wj4NWnsmp4J1PwAHyXPbOrG852lMH+prn/NbWy3QweZ6klZ4tVpWupg3zVbvRrl9Y0mZQto1JAbxBmdDgECjAyHLEmOOGWOK665tSk8TvjWNfv1R77cgBvzPrhy11WcK3lnPyHwTur893zyWtRcdWO6ABpHxz1Uq9THmBj5n6+qpOqeW/eP7o1Wpj5BBbbXnfOW/yA4pi/AndkqQfh01nmERr514wN33Ciqe1GAg74+EQZ+i4S0sNOsIMC/I4HLyBXb7QcYM4YE5QJErh9qO8YxzI/v6rzfJHbhXTdnNtgUmso0Xv8Iv3agY0OGZAcC0Hyx9V0Ttr0mtLn94zDEGlPqxzh1hc52ILRQgCTBk8ZW1XszyNxBwxjDPNb+PerPPNC/4hTtBF0y1pEAxN7O84Y9MUfADOThlqZz8p9OK5jadi7k36YuuPvDcdcEexbWvwDg4b+uZ3byl5+cJxbr6mE9Md+GHqFB1TwYfmI9Cs59qw1JJ3dT8EB1rN1w0jPnBU7Li9Xrc+G/n6Ks92hz+Jx++SqVbTPlE7jluG4Y/2TGrjj0wxHP73ZppizVI1wg+UY/sq/eEG9ORk6Z6zmhOqYaZRulVq1TSf3yKlI17RUXn/ael47QNQyqP8t0H/U9dm6pIB4Bcxt6nNZv/ADGOp9Zb/wDIFzntu+YwLLUljTwjpgncFm2WpAjRXWVl3rlKT2oRCPeUHoA3klIsKSI1C0jEdN37FIGcum8KQKZzATodfktIq1Rfq02HKZPLf6Arvdguu2a9vd3lQ+segC4OzEl9R35WFvm7w/C8u+cLlAM0p3esD6rPNeH6nZXQKnANb/0hvzW1YHwxv6R8FzQqeGpxeR0cPotqz1MFOLVWbZW8Q34CRqJUC/fjrO+efHFZ1rtV15mcYw1AieSHRtmJwJG/cYkZaFbYa3exOms/eqK2rkZnhG6DEifuVmUbZq1sf5iZ88NUVlsdgPQAgc4Cuovi0jIfCOXPNF2haLpYdb3ld4+azmOqHLwgicIbjPVGtLA8iXZTuBz0JV0wSnaSYiCdcImd49ZRn2qM8/nnuVVrKYzk8z8gnfWaMhlks2tSKtvthAwPHPT5Z9FzO0zJDt8zkB8FuWssIiAuat9MgyDhoVx5XXSR1PY+uBQPn8Vtm3Rv6+q5Tsm/+ER+r4lXq9pIwx3jodQcN2K1wuROXtf2jXvAzOXoT64fJcjaS5r5b6cFqVLTrOY3Y+UdFTrGRzxw8wpfJDWW3HI4x8N/zV2jWkOnOAeiyIiBp0n6K1Zahk6lu+OSmKul5jQjDj5/eqm4wYJ3fDLDn8VRZX3SMPsgfe5TLt+7Abt0blUGvR5/c/uhVHb+fOITh7YxJwmcJxxzVWq/QgnmBp+yC9TqSwLE7STdY8Ztf8ifi0K/Z3GCCMiqe2RNF3CHdCCfSVj7a+nH25l2s8DIuJHJ3iHoU9Mp9rDGm7VgB5sJafQBDpuXaeo5fY95NKcEFMQgaR9lJN06JINIOKi6pAJ0U1Xt5hp44LbNH2HRm5/PVBPJmPzPRdrbH4Rq5g9ZXMbCZFRgP4KZPm7/APZ6LatlfLH8RP8ASCufLzW+PiIMf4G8Xz6rYp1lzffANpyQAMSSYHVF/wCOUsgS8/8ALaX+owSDZrUrxkujduO8/spU6LBnJ5/Rc3W7RXcmhv8A6jwD/S2Ss609pnnJ8foYG/8AU+T6K9kx3bXtH4RzP1KFX2xSZ71Ro4TJ6Bea2nbD35kn9TnO9MG+ipuqVHbyBwwHQYJtXHodr7YUWZXnHld+OPosa1dunn/u2AcTJ+i5IWcqXcan1U/0bFftVa3f+IW/pACpP2xaTnWqdT8lV9nb+YdU/cgZPHVPCrVPbloGVVx4HH0K0rHt/vCGVQATgHDAE6EblgupDUdQg1G8Z5KdZTbHp/Zp10EH8zviVrWi5p6lefUe0ndsa2m28+Bec7Kd8DehP7T2o72/0fupx3Fvt3FQM09SqzqY3OK49vaav+IMPNpHzR6fac/ipj/K76plNjoalDQhPTc6cRh5H1WPS7Q0jnebzE+oV2htBjvde08iJ6KL4FDxkR1UnVhGGfpj9/BRdV1QnBp/ZXUwR1bnGGfJDJGHT70UO50P3zTlh0nigtWV+JHmd2Ke1NvNc38zSOohVqBIdiCrBcs2LHH24TRad7X+j2g/FpVSiVq2inhXp8HEc2OvD0KyLOV04+nO+xr0J21uCct6IZaPJaBhUH3KSFJCSDXCr2pt97G7px++SshUzWa1z3O/ADAkTMgD0laZLaG0alN803XS6ZwBwnAYpDtC4gXmAkCJmJkQSVj2q0l7rx6aIQKzjWtKttio4AEMgZeGY6qvVtlR2DnuI0mB0GCrSlKYamlCgEkBJTKEpIiRSUUkVJKVEpryCcob3JyUMmVYlpCoQn73iQokKN1VnysMtRG9E9qG8D0VItTQnWL2q+K7eIT943Xqs9OCU6nZr0bW9vu1COTpHQq5T2zVGd13MQeoXOXipCqfuVnovd1lLb4/EwjkQfjCt0ds0j+KP1AhcWLQePoU/tH3CnRe7vmWxrsnA8iCnNoC4Hv+Sk22vGTnDkSp0q93U2gxXBOTonk4Fp+C5+mC15boSOOBhDbtJ8ySTz5yp1qwe8vwF4zG+VZLEt1dlR9UpTHgqHEJkySDXWbatm3nF0nFaZTEdFpHOVrFG9ANnW/aaSpmzqaYyzTSuLQNEaKPc8E1cURTCfugroojRP3Q0U7HVR7pN3a0BShI0RmE7HVQFNLule7kaKQYNE7HVn90kKC0hTG5ItU7L1ZwoHQqQpHRXiVFO1OsVO6OifuDorYYVMU02nVQNnOib2UrS7opGgeSbTrGZ7MU3s60nWYzmmdQV2pkUBZ0vZlb7mEVtIJ5MjP9nSNmWmKQUrnmm0yMr2ZIWWVplkJXE2mRnCycFZpWMDMYq4IyKTh0QQ5pnN808yoEoIpKd4JkGsEg5RDlJaZRrNVcs6q6hFsckVUNNRNNWS1QLFMUDu1NtIIhCTQpioCmNE/cRjGG8fNFaYU7ymGq7qAOSGaGquAEcinIBwKKpClCfuwrL6cZ+RSDUwVhRCYUlagb8Eu7/ugB3aRarDqaYt4YogJpqbXDJPdKiR1VBC1DcweaiHFSFRAFzeCHdhWS9CMKogFIFDKaUBbyYqAcnlQIaJpIThIoESFFxTwoYoGgJ02CdBoqQco3ky2wMdU4eEJjk7VFTLdEwCUJAopFqiWohCiQoIQkFJRcipT0UiUKVIFQSvapi2MRlokkwoqESp0+B8k7maf3Uc+aIO0poQ8k95FReUNwU3NUXIBEKJCKSoOCIGXJ0xUYhBB7VAo15Qc1ANPKRUVUSvJSoSmlAQlRJTByRUDJJJINRqZydJbZRYpDNOkgkCphJJRTtTlJJFDKikkoIpNTpIJtUSkkoojclCruTJIp3KNNJJESKhuSSRUdyiEkkRF6GEkkDPUWpJIIvUEkkQioFJJUMnCSSBJkklB//9k=>
-        <H1>My Favorite Hobby<br><span id="name">Reading Books</span>
-            <H1>
-                </div>
-                <section id="bio">
-                    <h1></h1>
-                    <div class="line"></div>
-                    <p>My Hobby Is Reading Interesting and knowlegeble book in my free time.Whenever I Go To Home From School I Like To Read Such Books After Completing My Homework.I am 11 Years old and read in Class 5th standerd.Now I know very well that reading is very good habbit Which can make me a complete.It Makes us disciplined ,loyal,puncutual, and most inportantly a succesful person in life.
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#welcome">HOME</a></li>
+            <li class="links"><a href="#videos">VIDEOS</a></li>
+            <li class="links"><a href="#work">WORK</a></li>
+            <li class="links"><a href="#writings">WRITINGS</a></li>
+            <li class="links"><a href="#contact">CONTACT</a></li>
+
+        </ul>
+    </center>
+
+
+
+    <section id="welcome">
+        <div class="parallax-inner">
+            <img src="stbl.jpg" class="profile" />
+            <h1>I Am <br><span id="name">Tim Berners-Lee</span></h1>
+            <h2> I am the founder of www: World Wide Web</h2>
+        </div>
+
+    </section>
+
+
+
+    <section id="bio">
+        <h1>Hi!</h1>
+        <div class="line"></div>
+        <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+
+            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+
+            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br><br>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded.
+
+            In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users.
+
+            The Web was first used for e-commerce in 1997.</p>
+    </section>
+
+    <section id="videos">
+        <h1>Videos</h1>
+        <div class="line"></div>
+        <br>
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/OM6XIICm_qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/J8hzJxb0rpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    <section id="work">
+        <h1>WORK</h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" frameborder="0"></iframe>
+
+    </section>
+    <section id="writings">
+        <h1>WRITINGS</h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30" target="_blank">30 years on, what’s next ForTheWeb?</a>
+        <br>
+        <a class="article" href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-world-wide-web" target="_blank">How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
+    </section>
+    <br>
+    <section id="contact">
+        <h1>CONTACT</h1>
+        <div class="line"></div>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.588464315904!2d72.88846041490193!3d19.125701687059447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c97f346053b7%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1607095088609!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="contact_1"></div><a href="mailto:webmaster@example.com">Nehal Jain</a><i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>nehalghy@gmail.com</h3>
+    </section>
+</body>
+
+</html>
